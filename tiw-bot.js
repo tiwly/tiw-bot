@@ -14,10 +14,8 @@ app.get('/webhook/', function (req, res) {
 
 app.set('port',(process.env.PORT || 5000));
 
-app.listen(app.get('port'),function{
+app.listen(app.get('port'),function{})
 
-})
-
-app.listen(3000, function () {
+app.listen(app.get('port'), function () {
   console.log('Example app listening on port ' + app.get('port') + '!');
 });
