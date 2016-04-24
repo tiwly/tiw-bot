@@ -2,6 +2,7 @@ var express = require('express')
 var app = express()
 var token = "CAAOvJWRjvZAwBAKzv9egmvEVwf0dGN6CiCZA6bcSybChtDUnm8Kr8Sgpw0DwaZADHZCXnjaWZAO4X2pjpDfmwxGZBvO7mExVYuLUD8M2ebGIiDK2pxuymRrU5d78vSPA1WZC9rSrtmnUKyaxZC2oKaLi00yNPjoIQWcrSakloKKBqqZAMLhBtwiRFI8WLAJGgJ8fX8kn7D6ybywZDZD";
 var request = require('request')
+var bodyParser = require('body-parser')
 app.use(bodyParser.json())
 
 app.get('/', function (req, res) {
