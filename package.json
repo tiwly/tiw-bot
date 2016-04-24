@@ -1,0 +1,24 @@
+{
+  "name": "tiw-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tiw-bot.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node tiw-bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiwly/tiw-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiwly/tiw-bot/issues"
+  },
+  "homepage": "https://github.com/tiwly/tiw-bot#readme"
+}
